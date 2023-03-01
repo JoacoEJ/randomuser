@@ -1,0 +1,116 @@
+body {
+   font-family: sans-serif;
+   background-image: url("chess.jpg");
+}
+
+.header{
+    background-color: dimgrey;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none ;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+.nav-menu{
+    display: flex;
+    margin-right:40px;
+    list-style: none;  
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px ;
+    border-radius: 3px ; 
+}
+
+.nav-menu-link:hover {
+    background-color: cadetblue;
+    transition: 0,5s ;
+}
+
+.nav-toggle{
+    color: white;
+    background: none;
+    border: none;
+
+}
+
+
+
+.flex-container{
+ border: 1px solid grey;
+ height: 90vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.block{
+    border: 1px solid green;
+    display: flex;
+    max-width: 700px;
+    width: 30%;
+    height: 45vh;
+    flex-direction: column;  
+}
+.sub1{
+    display: flex;
+    border: aliceblue;
+    height: 35%;
+    width: 100%;
+    background-color: aliceblue;
+    flex-direction: column;
+    align-items: center;
+}
+.item1{
+   display: flex;
+   height: 20%;
+   
+}
+img{
+    border-radius: 50%;
+    
+}
+.sub2{
+    display: flex;
+    height: 1%;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    z-index: 1;
+    justify-content: center;
+}
+.sub3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgb(238, 202, 130);
+    height: 64%;
+    width: 100%;
+    background-color: rgb(248, 248, 239);
+}
